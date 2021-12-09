@@ -1,16 +1,19 @@
-import * as React from "react";
-import { View, Text } from "react-native";
+import React from "react";
+import { StyleSheet, Text, View } from "react-native";
 
-export default function App() {
+const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Universal React with Expo</Text>
+    <View style={styles.container}>
+      <Text>Quiz Game</Text>
     </View>
   );
-}
+};
+
+export default App;
+
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 40,
+    paddingHorizontal: 16,
+  },
+});
