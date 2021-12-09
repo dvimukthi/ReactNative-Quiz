@@ -1,15 +1,14 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Title from "./Components/Title";
 
-const Home = () => {
+const Title = () => {
   return (
     <View>
-      <Title />
+      <Text>Quiz Game</Text>
     </View>
   );
 };
 
-export default Home;
+export default Title;
 
 const styles = StyleSheet.create({});
