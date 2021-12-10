@@ -9,9 +9,10 @@ const Home = () => {
       <View>
         <Image
           source={{
-            uri: "https://iconscout.com/illustration/qa-service-3678715",
+            uri: "https://st2.depositphotos.com/4398873/7554/v/600/depositphotos_75545389-stock-illustration-quiz-multicolor-letters.jpg",
           }}
           style={styles.banner}
+          resizeMode="contain"
         />
       </View>
       <TouchableOpacity>
