@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <View>
       <Title />
-      <View>
+      <View style={styles.bannerContainer}>
         <Image
           source={{
             uri: "https://st2.depositphotos.com/4398873/7554/v/600/depositphotos_75545389-stock-illustration-quiz-multicolor-letters.jpg",
@@ -28,5 +28,10 @@ const styles = StyleSheet.create({
   banner: {
     height: 300,
     width: 300,
+  },
+
+  bannerContainer: {
+    justifyContent: "center",
+    alignItems: "center",
   },
 });
