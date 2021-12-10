@@ -1,11 +1,13 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
 import Home from "./Screens/Home";
+import Quiz from "./Screens/Quiz";
+import Result from "./Screens/Result";
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <Home />
+      <Quiz />
     </View>
   );
 };

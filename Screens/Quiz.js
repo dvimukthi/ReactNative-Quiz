@@ -4,7 +4,9 @@ import { StyleSheet, Text, View } from "react-native";
 const Quiz = () => {
   return (
     <View>
-      <Text>Quiz</Text>
+      <View>
+        <Text>This is really good quiz</Text>
+      </View>
     </View>
   );
 };
