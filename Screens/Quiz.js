@@ -5,7 +5,7 @@ const Quiz = () => {
   return (
     <View>
       <View>
-        <Text>This is really good quiz</Text>
+        <Text>This is really good Quiz</Text>
       </View>
     </View>
   );
