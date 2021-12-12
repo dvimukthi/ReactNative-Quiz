@@ -25,6 +25,9 @@ const Quiz = () => {
         <TouchableOpacity>
           <Text>SKIP</Text>
         </TouchableOpacity>
+        <TouchableOpacity>
+          <Text>NEXT</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
