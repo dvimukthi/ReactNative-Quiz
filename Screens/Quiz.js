@@ -1,5 +1,5 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 
 const Quiz = () => {
   return (
@@ -7,10 +7,18 @@ const Quiz = () => {
       <View>
         <Text>This is really good Quiz</Text>
       </View>
-      <View>Option 1</View>
-      <View>Option 2</View>
-      <View>Option 3</View>
-      <View>Option 4</View>
+      <TouchableOpacity>
+        <View>Option 1</View>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <View>Option 2</View>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <View>Option 3</View>
+      </TouchableOpacity>
+      <TouchableOpacity>
+        <View>Option 4</View>
+      </TouchableOpacity>
     </View>
   );
 };
