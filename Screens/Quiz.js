@@ -42,4 +42,8 @@ const styles = StyleSheet.create({
   top: {
     marginVertical: 16,
   },
+  options: {
+    marginVertical: 16,
+    flex: 1,
+  },
 });
