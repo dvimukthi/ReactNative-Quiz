@@ -47,4 +47,7 @@ const styles = StyleSheet.create({
     marginVertical: 16,
     flex: 1,
   },
+  bottom: {
+    marginBottom: 12,
+  },
 });
