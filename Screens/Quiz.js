@@ -38,6 +38,7 @@ export default Quiz;
 const styles = StyleSheet.create({
   container: {
     padding: 12,
+    height: "100%",
   },
   top: {
     marginVertical: 16,
