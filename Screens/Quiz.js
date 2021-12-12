@@ -35,4 +35,11 @@ const Quiz = () => {
 
 export default Quiz;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: {
+    padding: 12,
+  },
+  //top: {
+  //marginVertical: 16,
+  //},
+});
