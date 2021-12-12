@@ -21,7 +21,7 @@ const Quiz = () => {
           <View>Option 4</View>
         </TouchableOpacity>
       </View>
-      <View>
+      <View style={styles.bottom}>
         <TouchableOpacity>
           <Text>SKIP</Text>
         </TouchableOpacity>
