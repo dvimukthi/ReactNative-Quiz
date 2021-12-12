@@ -4,7 +4,7 @@ import { StyleSheet, Text, TouchableOpacity, View } from "react-native";
 const Quiz = () => {
   return (
     <View style={styles.container}>
-      <View>
+      <View style={styles.top}>
         <Text>This is really good Quiz</Text>
       </View>
       <View>
