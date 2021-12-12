@@ -7,7 +7,7 @@ const Quiz = () => {
       <View style={styles.top}>
         <Text>This is really good Quiz</Text>
       </View>
-      <View>
+      <View style={styles.options}>
         <TouchableOpacity>
           <View>Option 1</View>
         </TouchableOpacity>
