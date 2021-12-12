@@ -9,16 +9,16 @@ const Quiz = () => {
       </View>
       <View style={styles.options}>
         <TouchableOpacity>
-          <View>Option 1</View>
+          <Text>Option 1</Text>
         </TouchableOpacity>
         <TouchableOpacity>
-          <View>Option 2</View>
+          <Text>Option 2</Text>
         </TouchableOpacity>
         <TouchableOpacity>
-          <View>Option 3</View>
+          <Text>Option 3</Text>
         </TouchableOpacity>
         <TouchableOpacity>
-          <View>Option 4</View>
+          <Text>Option 4</Text>
         </TouchableOpacity>
       </View>
       <View style={styles.bottom}>
@@ -49,5 +49,8 @@ const styles = StyleSheet.create({
   },
   bottom: {
     marginBottom: 12,
+    paddingVertical: 16,
+    justifyContent: "space-between",
+    flexDirection: "row",
   },
 });
