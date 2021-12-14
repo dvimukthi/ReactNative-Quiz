@@ -1,10 +1,19 @@
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
+import { Image, StyleSheet, Text, View } from "react-native";
 
 const Result = () => {
   return (
     <View>
-      <Text>Result</Text>
+      <View>
+        <Text>Result</Text>
+      </View>
+      <View>
+        <Image
+          source={{
+            uri: "https://www.nycoproducts.com/wp-content/uploads/2019/09/Disinfecting-Quiz-30881050_m.jpg",
+          }}
+        />
+      </View>
     </View>
   );
 };
