@@ -1,5 +1,12 @@
 import React from "react";
-import { Image, StyleSheet, Text, View } from "react-native";
+import {
+  Image,
+  StyleSheet,
+  Text,
+  Touchable,
+  TouchableOpacity,
+  View,
+} from "react-native";
 
 const Result = () => {
   return (
@@ -15,6 +22,11 @@ const Result = () => {
           style={styles.banner}
           resizeMode="contain"
         />
+      </View>
+      <View>
+        <TouchableOpacity>
+          <Text>Home</Text>
+        </TouchableOpacity>
       </View>
     </View>
   );
