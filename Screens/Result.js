@@ -7,11 +7,13 @@ const Result = () => {
       <View>
         <Text>Result</Text>
       </View>
-      <View>
+      <View style={styles.bannerContainer}>
         <Image
           source={{
             uri: "https://www.nycoproducts.com/wp-content/uploads/2019/09/Disinfecting-Quiz-30881050_m.jpg",
           }}
+          style={styles.banner}
+          resizeMode="contain"
         />
       </View>
     </View>
@@ -20,4 +22,14 @@ const Result = () => {
 
 export default Result;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  banner: {
+    height: 300,
+    width: 300,
+  },
+
+  bannerContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
