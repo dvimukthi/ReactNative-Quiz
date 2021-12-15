@@ -25,7 +25,7 @@ const Result = () => {
       </View>
       <View>
         <TouchableOpacity>
-          <Text>Home</Text>
+          <Text>Home Screen</Text>
         </TouchableOpacity>
       </View>
     </View>
