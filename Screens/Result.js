@@ -12,7 +12,7 @@ const Result = () => {
   return (
     <View>
       <View>
-        <Text>Result</Text>
+        <Text>Results</Text>
       </View>
       <View style={styles.bannerContainer}>
         <Image
