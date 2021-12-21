@@ -11,7 +11,8 @@ function MyStack() {
       <Stack.Screen name="Home" component={Home} />
       <Stack.Screen name="Quiz" component={Quiz} />
       <Stack.Screen name="Result" component={Result} />
-      <Stack.Screen name="Settings" component={Settings} />
     </Stack.Navigator>
   );
 }
+
+export default MyStack;
