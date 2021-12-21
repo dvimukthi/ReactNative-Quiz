@@ -7,9 +7,7 @@ import Result from "./Screens/Result";
 const App = () => {
   return (
     <View style={styles.container}>
-      {/* <Home /> */}
-      {/* <Quiz /> */}
-      <Result />
+      <NavigationContainer></NavigationContainer>
     </View>
   );
 };
