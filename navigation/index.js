@@ -1,4 +1,5 @@
-import { createStackNavigator } from "react-native";
+import { createStackNavigator } from "@react-navigation/stack";
+import Home from "../Screens/Home";
 
 const Stack = createStackNavigator();
 
@@ -12,7 +13,3 @@ function MyStack() {
     </Stack.Navigator>
   );
 }
-
-export default Stack;
-
-const styles = StyleSheet.create({});
